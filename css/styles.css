@@ -14,6 +14,7 @@ button {
     height: 56px;
     cursor: poiner;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    color: #fff;
     background: #4d5ae5;
 }
 ul, ol {
@@ -34,7 +35,55 @@ a {
 .logo span {
     color: #2e2f42;
 }
-nav {
+nav a{
     font-weight: 500;
     color: #2e2f42;
+}
+nav a:hover {
+    color: #404bbf;
+}
+address a {
+    color: #434455;
+}
+address a:hover, .address a:focus {
+    color:#404bbf;
+}
+h1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    text-align: center;
+    color: #fff;
+    background: #2e2f42;
+}
+button:hover {
+    background: #404bbf;
+}
+.hiden {
+    color: transparent;
+}
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    text-transform: capitalize;
+    text-align: center;
+}
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+
+
+footer{
+    background: #2e2f42;
+}
+footer>p {
+    color: #f4f4fd;
+}
+footer .logo span {
+    color: #f4f4fd;
 }
