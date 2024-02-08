@@ -7,7 +7,6 @@ body {
     color: #434455;
     background-color: #fafafa;
 }
-
 button {
     border-radius: 4px;
     padding: 16px 32px;
@@ -17,11 +16,9 @@ button {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
 }
-
 ul, ol {
     list-style-type: none;
 }
-
 a {
     text-decoration: none;
 }
@@ -36,7 +33,6 @@ a {
 }
 .logo span {
     color: #2e2f42;
-}
 }
 nav {
     font-weight: 500;
